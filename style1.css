@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+
+.cover__title{
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+.cover__subtitle{  
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}

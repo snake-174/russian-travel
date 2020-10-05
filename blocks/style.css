@@ -1,77 +1,59 @@
-.places{
-  margin: 0 auto 92px;
-  width: 76%;
+*{
+  border: 1px solid red;
 }
-
-.place{
+.cover{
+  margin-bottom: 92px;
+  color: white;
   display: flex;
-  color: White;
-  margin-bottom: 80px;
-  justify-content: space-between;
-}
-
-.place__title{
-  width: 100%;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 1.05;
-  margin: 0 0 48px;
-}
-
-.place__column{
-  display:flex;
-  flex-direction: column;
-  width: 48%;
+  justify-content: center;
   
 }
 
-.place__column_right{
-  
-}
 
-.place__url-text{
-  font-size: 12;
-  font-weight: normal;
-  line-height: 1;
-  letter-spacing: 0.2em;
-  color: #AAAAAA;
-  margin: 0 0 12px;
-}
-
-.place__text{
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.67;
-}
-
-.place__url-link{
+.cover__link{
+  background-image: url(../images/cover-trains.jpg);
+  background-color: #2A2C2F;
+  width: 1184px;
+  height: 740px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.22;
-  color: #ffffff;
-  text-decoration-line: underline;
-}
-  
-
-.place__image{
-  width: 100%;
+  color: white;
 }
 
-/*.place__row{
-  display: flex;
-  width: 96%;
-  justify-content: space-between;
+.cover__link:hover{
+  background-color: rgba(0, 0, 0, .5);
 }
-.place1{
+
+/*.cover__overlay{
+  background-color: rgba(0, 0, 0, .5);
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 0 auto 0;
+}*/
+
+.cover__text{
+  width: 560px;
   display: flex;
   flex-direction: column;
-  color: White;
-  margin-bottom: 80px;
-  ;
+  align-content: center;
+  margin: auto;
+  
 }
 
+.cover__title{
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 32px;
+}
 
-font-size: ;
-  font-weight: ;
-  line-height: ;*/
+.cover__subtitle{  
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
