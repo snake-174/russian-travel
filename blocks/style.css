@@ -1,59 +1,17 @@
-*{
-  border: 1px solid red;
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.cover{
-  margin-bottom: 92px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  
-}
+/*
+ *{
+     border: 1px solid red;
+ }
+ */
+ 
 
+ 
 
-.cover__link{
-  background-image: url(../images/cover-trains.jpg);
-  background-color: #2A2C2F;
-  width: 1184px;
-  height: 740px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-decoration: none;
-  color: white;
-}
+ 
 
-.cover__link:hover{
-  background-color: rgba(0, 0, 0, .5);
-}
-
-/*.cover__overlay{
-  background-color: rgba(0, 0, 0, .5);
-  max-width: 1184px;
-  min-height: 740px;
-  margin: 0 auto 0;
-}*/
-
-.cover__text{
-  width: 560px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin: auto;
-  
-}
-
-.cover__title{
-  font-size: 72px;
-  line-height: 1.06;
-  font-weight: 900;
-  text-align: center;
-  margin: 0 0 32px;
-}
-
-.cover__subtitle{  
-  font-size: 18px;
-  line-height: 1.22;
-  font-weight: normal;
-  text-align: center;
-  margin: 0;
-}
+ 

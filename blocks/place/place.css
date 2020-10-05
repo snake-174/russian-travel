@@ -6,3 +6,16 @@
     margin-bottom: 80px;
     
   }
+
+  @media(max-width: 1100px){
+    .place{
+      gap: 32px;
+    }
+  }
+
+  @media(max-width: 900px){
+    .place{
+      gap: 28px;
+      margin-bottom: 72px;
+    }
+  }
