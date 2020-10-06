@@ -8,7 +8,23 @@
 
   @media(max-width: 900px){
     .place__title{
-      font-size: 42px;
+      font-size: 55px;
       line-height: 1.1;
+    }
+  }
+
+  @media(max-width: 690px){
+    .place__title{
+      font-size: 42px;
+      line-height: 1.09;
+      margin-bottom: 32px;
+    }
+  }
+
+  @media(max-width: 500px){
+    .place__title{
+      width: 90%;
+      font-size: 32px;
+      margin: 0 auto;
     }
   }

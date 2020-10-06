@@ -12,3 +12,17 @@
         margin-bottom: 56px;
     }    
 }
+
+@media(max-width: 690px){
+    .lead__subtitle{
+        font-size: 16px;
+        line-height: 1.25;
+        width: 288px;
+    }  
+  }
+
+@media(max-width: 500px){
+    .lead__subtitle{
+        margin-bottom: 40px;
+    }
+}

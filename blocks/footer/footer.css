@@ -1,13 +1,21 @@
 .footer{
-    display: grid;
-    grid-template-columns: 50px 57px 94px 86px 106px 1fr;
-    gap: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 92.5%;
     padding-bottom: 24px;
   }
 
 @media(max-width: 900px){
   .footer{
-    width: 95%;
-  }
+      width: 95%;
+    }
+}
+
+@media(max-width: 690px){
+  .footer{
+      flex-direction: column;
+      width: 90%;
+      align-items: flex-start;
+    }
 }

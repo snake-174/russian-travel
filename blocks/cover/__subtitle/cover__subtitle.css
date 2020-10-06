@@ -10,3 +10,12 @@
     grid-column: 1/2;
     z-index: 1;
   }
+
+@media(max-width: 570px){
+    .cover__subtitle{
+        width: 90%;
+        padding-top: 21px;
+        font-size: 14px;
+        line-height: 1.14;
+    }
+  }

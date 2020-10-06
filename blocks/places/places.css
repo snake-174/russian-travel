@@ -14,3 +14,15 @@
     margin-bottom: 88px;
   }
 }
+
+@media(max-width: 690px){
+  .places{
+    width: 100%;
+  }
+}
+
+@media(max-width: 500px){
+  .places{
+      margin-bottom: 64px;
+  }
+}  

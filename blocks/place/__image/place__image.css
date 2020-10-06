@@ -2,3 +2,8 @@
     width: 100%;
   }
   
+@media(max-width: 500px){
+    .place__image{
+        margin: 32px 0;
+    }
+}

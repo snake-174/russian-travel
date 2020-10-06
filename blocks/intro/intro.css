@@ -16,3 +16,9 @@
         margin-bottom: 88px;
     }    
 }
+
+@media(max-width: 500px){
+    .intro{
+        width: 90%;
+    }
+} 

@@ -1,8 +1,13 @@
 .footer__author{
-  justify-self: end;
   margin: 0;
   color: white;
   font-size: 14px;
   line-height: 1.14;
   font-weight: normal;
+}
+
+@media(max-width: 690px){
+  .footer__author{
+    line-height: 1;
+  }
 }
