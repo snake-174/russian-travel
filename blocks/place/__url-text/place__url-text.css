@@ -1,8 +1,9 @@
 .place__url-text{
-    font-size: 12;
+    font-size: 12px;
     font-weight: 500;
     line-height: 1;
     letter-spacing: 0.2em;
     color: #AAAAAA;
     margin: 0 0 12px;
+    text-transform: uppercase;
   }
